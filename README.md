@@ -114,11 +114,7 @@
   let msg = c?.toString()
   print(msg)
   ```
-  To simulate our client, we simply tell CardFactory method that we want to create a FacelessManipulator card. To do this, we
-  invoke createCard method(our factory method), and this method will delegate the instantiation of the card that was asked.
-  *The c variable has Card type, not FacelessManipulator type*
+  To simulate our client, we simply tell *CardFactory* method that we want to create a *FacelessManipulator* card. To do this, we invoke *createCard* method(our factory method), and this method will delegate the instantiation of the card that was asked. *The c variable has Card type, not FacelessManipulator type*
   
-  **Note:** we see that our client won't know exactly how to contruct the card. They only tell to create a FacelessManipulator 
-  card, Our client doesn't need to know that FacelessManipulator card need fives manas, so it provide three points of attacks 
-  and three points of defence.
+  **Note:** we see that our client won't know exactly how to contruct the card. They only tell to create a **FacelessManipulator** card, Our client doesn't need to know that **FacelessManipulator** card need fives manas, so it provide three points of attacks and three points of defence.
   
